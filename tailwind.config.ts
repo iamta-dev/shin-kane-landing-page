@@ -3,15 +3,15 @@ import { type Config } from "tailwindcss";
 export default {
   content: ["./src/**/*.tsx"],
   theme: {
-    colors: {
-      primary: '#40BFB4',
-      secondary: '#FFB5A7',
-      accent: '#333333',
-    },
     extend: {
+      colors: {
+        primary: '#FF4B4B',    // แดงสด
+        secondary: '#4BC8FF',  // ฟ้าสดใส
+        accent: '#FFD700',     // เหลืองทอง
+      },
       fontFamily: {
-        itim: ['Itim', 'cursive'],
-        prompt: ['Prompt', 'sans-serif'],
+        heading: ['Noto Sans Thai', 'sans-serif'],
+        body: ['Sarabun', 'sans-serif'],
       },
     },
   },
