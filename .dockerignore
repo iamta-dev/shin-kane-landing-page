@@ -1,0 +1,41 @@
+# dependencies
+node_modules
+
+# next.js
+.next
+out
+
+# logs
+*.log
+npm-debug.log*
+
+# testing
+coverage
+
+# misc
+.DS_Store
+*.pem
+.env
+.env*.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.idea
+.vscode
+
+# git
+.git
+.gitignore
+
+# docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# bun specific
+*.bun
