@@ -213,10 +213,6 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Phone className="h-5 w-5 text-primary" />
-                    <p>โทร: 02-XXX-XXXX</p>
-                  </div>
-                  <div className="flex items-center gap-2">
                     <Clock className="h-5 w-5 text-primary" />
                     <p>เปิดทุกวัน 10:00 - 21:00 น.</p>
                   </div>
