@@ -1,4 +1,4 @@
-FROM oven/bun:1 AS base
+FROM --platform=linux/amd64 oven/bun:1 AS base
 
 # Dependencies stage
 FROM base AS deps
